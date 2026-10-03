@@ -5,7 +5,7 @@ Code accompanying the paper **Concept Attractors in LLMs and their Applications*
 The repo is organized to mirror the paper's three sections. Each notebook is a self-contained experiment — open it in Jupyter from its folder and run top-to-bottom.
 
 ```
-Attractors/
+src/
 ├── concept_detection/              # §Attractors for concept detection
 │   └── tofu.ipynb
 ├── traversals/                     # §Attractors for traversals
