@@ -1,6 +1,6 @@
 # Attractors
 
-Code accompanying the paper **Attractors** (`Attractors_TMLR_2.pdf`, TMLR).
+Code accompanying the paper **Concept Attractors in LLMs and their Applications**.
 
 The repo is organized to mirror the paper's three sections. Each notebook is a self-contained experiment — open it in Jupyter from its folder and run top-to-bottom.
 
