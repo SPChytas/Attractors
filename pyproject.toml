@@ -1,0 +1,42 @@
+[project]
+name = "attractors"
+version = "0.1.0"
+description = "Code accompanying the Attractors paper (TMLR)."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    # Core deep learning / HF stack
+    "torch>=2.1",
+    "transformers>=4.44,<5",
+    "datasets>=2.20",
+    "accelerate>=0.30",
+    "huggingface-hub>=0.24",
+
+    # Scientific / analysis
+    "numpy>=1.26",
+    "pandas>=2.1",
+    "scipy>=1.11",
+    "scikit-learn>=1.4",
+    "matplotlib>=3.8",
+    "tqdm>=4.66",
+    "rich>=13.7",
+
+    # Vision helpers (llava.ipynb; also used by instructblip.ipynb)
+    "Pillow>=10.0",
+    "requests>=2.31",
+
+    # Text metrics (paradetox.ipynb)
+    "rouge-score>=0.1.2",
+    "evaluate>=0.4",
+
+    # External LLM API (programming.ipynb, spanish.ipynb)
+    "openai>=1.0",
+
+    # Notebook runtime
+    "jupyter>=1.0",
+    "ipykernel>=6.29",
+]
+
+[tool.uv]
+# This repo is a research artifact, not an installable library.
+package = false

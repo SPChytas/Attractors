@@ -1,0 +1,20 @@
+# Python / uv
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# Local caches a notebook may write
+programming_*.hf/
+tofu_cache/
+boolq_cache/
+leetcode_cache/
+
+# Secrets
+openai_token.txt
